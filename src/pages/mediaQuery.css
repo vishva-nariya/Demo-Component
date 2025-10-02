@@ -1,0 +1,31 @@
+.responsive-box {
+  width: 200px;
+  height: 200px;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+/* Small devices (phones) */
+@media (max-width: 640px) {
+  .responsive-box {
+    background: lightcoral;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .responsive-box {
+    background: lightseagreen;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 1025px) {
+  .responsive-box {
+    background: lightskyblue;
+  }
+}
